@@ -5,14 +5,18 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-## 📋 Project Overview
+
+##  Project Overview
 This is a **Mini Project** for the Machine Learning course. The goal is to build classification models to predict anxiety levels (binary: High/Low) based on various lifestyle and health features.
+
 
 **Models Implemented:**
 - Logistic Regression (from scratch and using scikit-learn)
 - Gaussian Naive Bayes
 
-## 📁 Project Structure
+
+##  Project Structure
+```bash
 anxiety-prediction-ml/
 ├── README.md
 ├── LICENSE
@@ -22,37 +26,36 @@ anxiety-prediction-ml/
 ├── data/
 │   └── enhanced_anxiety_dataset.csv
 ├── reports/
-│   └── report.pdf
-└── models/ (optional)
+   └── report.pdf
+```
 
 
-## 🚀 How to Run
-```bash
+##  How to Run
 git clone https://github.com/omid-talebi/anxiety-prediction-ml.git
 cd anxiety-prediction-ml
 
 pip install -r requirements.txt
 
 
-## 📊 Results
+##  Results
 | Model                | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
 |----------------------|----------|-----------|--------|----------|---------|
 | Logistic Regression  | **84.21%** | 79.60%  | 67.87% | 73.27%  | **0.913** |
 | Naive Bayes          | 81.03%   | 75.60%  | 59.79% | 66.77%  | 0.885   |
 
-
-
 **Best Model**: Logistic Regression performs better overall.
 
-## 📄 Full Report
+
+##  Full Report
 The complete project report (in Persian) is available in:  
 [**reports/report.pdf**](reports/report.pdf)
 
-## 🛠 Technologies
+
+##  Technologies
 - **Data Handling**: pandas, numpy
 - **Visualization**: matplotlib, seaborn
 - **Machine Learning**: scikit-learn, PCA
 - **Environment**: Jupyter Notebook
 
-## 📜 License
+##  License
 MIT License — see the [LICENSE](LICENSE) file for details.
