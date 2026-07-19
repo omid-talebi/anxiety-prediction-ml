@@ -40,6 +40,8 @@ pip install -r requirements.txt
 | Logistic Regression  | **84.21%** | 79.60%  | 67.87% | 73.27%  | **0.913** |
 | Naive Bayes          | 81.03%   | 75.60%  | 59.79% | 66.77%  | 0.885   |
 
+
+
 **Best Model**: Logistic Regression performs better overall.
 
 ## 📄 Full Report
