@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.pkl
+*.joblib
+models/
+data/raw/
+data/processed/
+venv/
+env/
+.venv/
+.env
+.DS_Store
+Thumbs.db
